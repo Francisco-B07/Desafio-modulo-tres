@@ -7,11 +7,12 @@ body {
 }
 .contenedor {
   width: 100%;
+  background-color: #fafafa;
 }
 /* Header */
 .header {
-  background-color: #dbdbdb;
   height: 616px;
+  background-image: url(./img/puntitos.svg);
 }
 
 .cabecera {
