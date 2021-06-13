@@ -1,0 +1,413 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+.contenedor {
+  width: 100%;
+}
+/* Header */
+.header {
+  background-color: #dbdbdb;
+  height: 616px;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 17px;
+}
+
+@media (min-width: 769px) {
+  .cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 84px 0px 80px;
+    height: 145px;
+  }
+}
+.logo {
+  width: 54px;
+  height: 50px;
+}
+@media (min-width: 769px) {
+  .logo {
+    width: 95px;
+    height: 109px;
+  }
+}
+
+.menu {
+  display: grid;
+  gap: 7px;
+  padding: 11px 3px;
+}
+@media (min-width: 769px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 428px;
+  }
+}
+.bloques-del-menu {
+  background-color: #141414;
+  width: 36px;
+  height: 6px;
+}
+.menu-escrito {
+  display: none;
+  height: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .bloques-del-menu {
+    display: none;
+  }
+  .menu-escrito {
+    display: block;
+  }
+}
+.titulo-imagen {
+}
+@media (min-width: 769px) {
+  .titulo-imagen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 91px;
+    justify-content: space-between;
+  }
+}
+.titulo {
+  margin: 94px 42px 51px 42px;
+  font-family: "Open Sans";
+  font-size: 48px;
+  text-align: center;
+  line-height: 48px;
+}
+@media (min-width: 769px) {
+  .titulo {
+    margin: 40px 80px;
+    width: 313px;
+    height: 96px;
+    font-family: "Open Sans";
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+.mi-foto {
+  display: block;
+  width: 230px;
+  height: 285px;
+  margin: 52px auto;
+}
+
+@media (min-width: 769px) {
+  .mi-foto {
+    display: block;
+    width: 315px;
+    height: 380px;
+    margin: 0px auto;
+    align-items: flex-end;
+  }
+}
+
+/* Mi descripción */
+.mi-descripcion {
+  background-color: #141414;
+  height: 538px;
+  padding: 55px 31px;
+}
+
+.mi-descripcion-desktop {
+  display: none;
+  background-color: #141414;
+  height: 538px;
+  padding: 55px 31px;
+  align-items: center;
+  justify-content: center;
+}
+.descripcion-desktop {
+  display: none;
+}
+@media (min-width: 769px) {
+  .mi-descripcion {
+    display: none;
+  }
+  .mi-descripcion-desktop {
+    display: flex;
+  }
+  .descripcion-desktop {
+    display: block;
+  }
+}
+
+.quien-soy {
+  font-size: 32px;
+  font-family: "Open Sans";
+  text-align: center;
+  margin: 0;
+  color: #fafafa;
+}
+
+@media (min-width: 769px) {
+  .quien-soy {
+    text-align: left;
+  }
+}
+.descripcion {
+  width: 312px;
+  margin-top: 41px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fafafa;
+}
+@media (min-width: 769px) {
+  .descripcion {
+    width: 532px;
+    margin-top: 28px;
+  }
+}
+
+.check {
+  display: block;
+  margin: 57px auto;
+  height: 80px;
+  width: 80px;
+}
+
+@media (min-width: 769px) {
+  .check {
+    display: block;
+    justify-content: flex-end;
+    margin: 0 90px;
+    height: 211px;
+    width: 211px;
+  }
+}
+/* Mis servicios */
+.mis-servicios {
+  background-color: #fafafa;
+  height: 1375px;
+}
+
+@media (min-width: 769px) {
+  .mis-servicios {
+    height: 604px;
+  }
+}
+.proximos-servicios {
+  font-family: "Open Sans";
+  font-size: 32px;
+  margin: 69.76px 0 48.41px 0;
+  text-align: center;
+  color: #2c2c2c;
+  height: 55.81px;
+}
+@media (min-width: 769px) {
+  .proximos-servicios {
+    font-size: 48px;
+    margin-top: 59px;
+    height: 55.81px;
+  }
+}
+.contenedor-servicios {
+}
+@media (min-width: 769px) {
+  .contenedor-servicios {
+    display: flex;
+    justify-content: space-between;
+    margin: 76px 85px;
+  }
+}
+.fieldset-servicio {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 104px;
+}
+@media (min-width: 769px) {
+  .fieldset-servicio {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.compu {
+  display: block;
+  margin: 5px auto;
+  width: 121.83px;
+  height: 68.73px;
+}
+@media (min-width: 769px) {
+  .compu {
+    display: block;
+    margin: 5px auto;
+    width: 138px;
+    height: 128px;
+  }
+}
+.servicios {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  height: 28px;
+}
+.descripcion-servicio {
+  width: 262px;
+  font-weight: 400;
+  color: #2c2c2c;
+  text-align: center;
+  margin: auto;
+}
+@media (min-width: 769px) {
+  .descripcion-servicio {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+/* Form */
+.form {
+  background-color: #141414;
+  height: 660px;
+  padding: 70px 20px;
+}
+@media (min-width: 769px) {
+  .form {
+    display: flex;
+    padding: 116px 304px;
+  }
+}
+
+.titulo-del-formulario {
+  margin: 0 0 36.42px 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  height: 56px;
+}
+
+@media (min-width: 769px) {
+  .titulo-del-formulario {
+    margin: 0;
+    text-align: end;
+    font-size: 48px;
+    width: 271px;
+  }
+}
+.seccion-llenar-form {
+  display: grid;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .seccion-llenar-form {
+    margin: 0 77px;
+  }
+}
+.label-form {
+  display: block;
+  color: #fafafa;
+  font-size: 13px;
+  margin-bottom: 9px;
+}
+.input,
+.textarea {
+  display: block;
+  border: 3px solid #2c2c2c;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.input {
+  height: 45px;
+  margin-bottom: 21px;
+}
+
+.textarea {
+  min-height: 113px;
+}
+@media (min-width: 769px) {
+  .input {
+    width: 376px;
+    margin-bottom: 21px;
+  }
+}
+
+.button {
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #ffd953;
+  margin-top: 60px;
+}
+
+/* Footer */
+.footer {
+  background-color: #dbdbdb;
+  height: 493px;
+  padding: 53px 16px;
+}
+
+@media (min-width: 769px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 98px 215px 95px 80px;
+    height: 346px;
+  }
+}
+.logo-en-el-footer {
+}
+.logo-footer {
+  width: 77px;
+  height: 71px;
+}
+@media (min-width: 769px) {
+  .logo-footer {
+    width: 112px;
+    height: 103px;
+  }
+}
+.pie-de-logo {
+  height: 15px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+.redes {
+  margin-top: 85px;
+  display: grid;
+}
+@media (min-width: 769px) {
+  .redes {
+    margin-top: 0;
+  }
+}
+
+.fieldset-redes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  height: 27px;
+}
+.logo-red-social {
+  margin-right: 8px;
+  width: 27px;
+  height: 27px;
+}
+.nombre-red {
+  height: 19px;
+  font-size: 400px;
+  font-size: 16px;
+  color: #2c2c2c;
+}
