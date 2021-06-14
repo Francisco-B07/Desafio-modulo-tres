@@ -21,7 +21,7 @@ body {
   padding: 18px 17px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .cabecera {
     padding: 36px 84px 0px 80px;
     height: 145px;
@@ -31,7 +31,7 @@ body {
   width: 54px;
   height: 50px;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .logo {
     width: 95px;
     height: 109px;
@@ -43,7 +43,7 @@ body {
   gap: 7px;
   padding: 11px 3px;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .menu {
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@ body {
   margin: 0;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .bloques-del-menu {
     display: none;
   }
@@ -73,7 +73,7 @@ body {
 }
 .titulo-imagen {
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .titulo-imagen {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,12 +83,13 @@ body {
 }
 .titulo {
   margin: 94px 42px 51px 42px;
+  min-height: 96px;
   font-family: "Open Sans";
   font-size: 48px;
   text-align: center;
   line-height: 48px;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .titulo {
     margin: 40px 80px;
     width: 313px;
@@ -105,7 +106,7 @@ body {
   margin: 52px auto;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .mi-foto {
     display: block;
     width: 315px;
@@ -132,7 +133,7 @@ body {
 .descripcion-desktop {
   display: none;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .mi-descripcion {
     display: none;
   }
@@ -152,18 +153,19 @@ body {
   color: #fafafa;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .quien-soy {
     text-align: left;
   }
 }
 .descripcion {
-  margin-top: 41px;
+  margin: 41px auto;
   font-size: 16px;
   font-weight: 400;
+  width: 312px;
   color: #fafafa;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .descripcion {
     width: 532px;
     margin-top: 28px;
@@ -172,12 +174,12 @@ body {
 
 .check {
   display: block;
-  margin: 57px auto;
+  margin: 16px auto;
   height: 80px;
   width: 80px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .check {
     display: block;
 
@@ -192,7 +194,7 @@ body {
   height: 1375px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .mis-servicios {
     height: 604px;
   }
@@ -205,7 +207,7 @@ body {
   color: #2c2c2c;
   height: 55.81px;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .proximos-servicios {
     font-size: 48px;
     margin-top: 59px;
@@ -214,7 +216,7 @@ body {
 }
 .contenedor-servicios {
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .contenedor-servicios {
     display: flex;
     justify-content: space-between;
@@ -233,7 +235,7 @@ body {
   width: 121.83px;
   height: 68.73px;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .compu {
     display: block;
     margin: 5px auto;
@@ -255,7 +257,7 @@ body {
   text-align: center;
   margin: auto;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .descripcion-servicio {
     text-align: center;
     margin: 0;
@@ -268,10 +270,11 @@ body {
   height: 660px;
   padding: 70px 20px;
 }
-@media (min-width: 769px) {
+@media (min-width: 850px) {
   .form {
     display: flex;
-    padding: 116px 304px;
+    padding: 116px 0px;
+    justify-content: center;
   }
 }
 
@@ -283,7 +286,7 @@ body {
   height: 56px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 850px) {
   .titulo-del-formulario {
     margin: 0;
     text-align: end;
@@ -296,7 +299,7 @@ body {
   margin: 0;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 850px) {
   .seccion-llenar-form {
     margin: 0 77px;
   }
@@ -324,7 +327,7 @@ body {
 .textarea {
   min-height: 113px;
 }
-@media (min-width: 769px) {
+@media (min-width: 850px) {
   .input {
     width: 376px;
     margin-bottom: 21px;
@@ -346,7 +349,7 @@ body {
   padding: 53px 16px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .footer {
     display: flex;
     justify-content: space-between;
@@ -360,7 +363,7 @@ body {
   width: 77px;
   height: 71px;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .logo-footer {
     width: 112px;
     height: 103px;
@@ -378,7 +381,7 @@ body {
   margin-top: 85px;
   display: grid;
 }
-@media (min-width: 769px) {
+@media (min-width: 950px) {
   .redes {
     margin-top: 0;
   }
